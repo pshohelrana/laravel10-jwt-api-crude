@@ -1,0 +1,10 @@
+php artisan make:migration create_jwt_loanapplicants_table
+
+
+php artisan optimize:clear
+php artisan cache:clear
+php artisan config:clear
+php artisan event:clear
+php artisan route:clear
+php artisan schedule:clear-cache
+php artisan view:clear
